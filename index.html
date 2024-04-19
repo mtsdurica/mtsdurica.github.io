@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -40,12 +42,12 @@
                     </button>
                 </li>
                 <li class="nav-item">
-                    <button>
+                    <button id="education-href">
                         <h2>Education</h2>
                     </button>
                 </li>
                 <li class="nav-item">
-                    <button>
+                    <button id="projects-href">
                         <h2>Projects<h2>
                     </button>
                 </li>
@@ -55,7 +57,25 @@
     <main>
         <div id="main-container">
             <section id="about-section">
-                <span>
+                <div id="about-heading" class="section-heading">
+                    <div>
+                        <h1>About Me</h1>
+                    </div>
+                </div>
+                <span class="section-text">
+                    Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi
+                    Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia.
+                    Reprehenderit
+                    nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident.
+                    Nostrud
+                    officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo
+                    officia
+                    dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi
+                    laboris
+                    ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit
+                    enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
+                </span>
+                <span class="section-text">
                     Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi
                     Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia.
                     Reprehenderit
@@ -69,8 +89,26 @@
                     enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
                 </span>
             </section>
-            <section>
-                <span>
+            <section id="education-section">
+                <div id="education-heading" class="section-heading">
+                    <div>
+                        <h1>Education</h1>
+                    </div>
+                </div>
+                <span class="section-text">
+                    Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi
+                    Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia.
+                    Reprehenderit
+                    nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident.
+                    Nostrud
+                    officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo
+                    officia
+                    dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi
+                    laboris
+                    ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit
+                    enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
+                </span>
+                <span class="section-text">
                     Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi
                     Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia.
                     Reprehenderit
@@ -84,8 +122,13 @@
                     enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
                 </span>
             </section>
-            <section>
-                <span>
+            <section id="projects-section">
+                <div id="projects-heading" class="section-heading">
+                    <div>
+                        <h1>Projects</h1>
+                    </div>
+                </div>
+                <span class="section-text">
                     Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi
                     Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia.
                     Reprehenderit
@@ -98,99 +141,7 @@
                     ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit
                     enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
                 </span>
-            </section>
-            <section>
-                <span>
-                    Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi
-                    Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia.
-                    Reprehenderit
-                    nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident.
-                    Nostrud
-                    officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo
-                    officia
-                    dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi
-                    laboris
-                    ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit
-                    enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
-                </span>
-            </section>
-            <section>
-                <span>
-                    Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi
-                    Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia.
-                    Reprehenderit
-                    nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident.
-                    Nostrud
-                    officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo
-                    officia
-                    dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi
-                    laboris
-                    ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit
-                    enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
-                </span>
-            </section>
-            <section>
-                <span>
-                    Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi
-                    Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia.
-                    Reprehenderit
-                    nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident.
-                    Nostrud
-                    officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo
-                    officia
-                    dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi
-                    laboris
-                    ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit
-                    enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
-                </span>
-            </section>
-            <section>
-                <span>
-                    Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi
-                    Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia.
-                    Reprehenderit
-                    nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident.
-                    Nostrud
-                    officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo
-                    officia
-                    dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi
-                    laboris
-                    ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit
-                    enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
-                </span>
-            </section>
-            <section>
-                <span>
-                    Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi
-                    Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia.
-                    Reprehenderit
-                    nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident.
-                    Nostrud
-                    officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo
-                    officia
-                    dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi
-                    laboris
-                    ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit
-                    enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
-                </span>
-            </section>
-            <section>
-                <span>
-                    Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi
-                    Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia.
-                    Reprehenderit
-                    nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident.
-                    Nostrud
-                    officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo
-                    officia
-                    dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi
-                    laboris
-                    ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit
-                    enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
-                </span>
-            </section>
-            <section>
-                <span>
+                <span class="section-text">
                     Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi
                     Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia.
                     Reprehenderit
